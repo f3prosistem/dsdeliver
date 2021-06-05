@@ -1,0 +1,5 @@
+package com.f3pro.dsdeliver.config;
+
+public class securityConfig {
+
+}
