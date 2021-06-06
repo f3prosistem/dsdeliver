@@ -10935,3 +10935,18 @@ java.lang.InterruptedException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1461)
 	at org.eclipse.equinox.launcher.Main.main(Main.java:1434)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-06-05 20:35:28.955
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-06-05 20:35:28.956
+!MESSAGE classpath=101 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-06-05 20:35:28.957
+!MESSAGE buffering callback sts4.classpath.dSFXSmWo backend false 101
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-06-05 20:35:28.957
+!MESSAGE executing callback sts4.classpath.dSFXSmWo 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-06-05 20:35:28.974
+!MESSAGE executing callback sts4.classpath.dSFXSmWo SUCCESS [done]
