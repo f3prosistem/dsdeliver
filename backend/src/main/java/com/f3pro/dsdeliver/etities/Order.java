@@ -12,12 +12,14 @@ import javax.persistence.Id;
 import javax.persistence.JoinColumn;
 import javax.persistence.JoinTable;
 import javax.persistence.ManyToMany;
+import javax.persistence.Table;
 
-@Entity(name = "tb_order")
+@Entity
+@Table(name = "tb_order")
 public class Order implements Serializable {
 
 	private static final long serialVersionUID = 1L;
-	
+
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long id;
@@ -28,20 +30,19 @@ public class Order implements Serializable {
 	private OrderStatus status;
 
 	@ManyToMany
-	@JoinTable(name ="tb_order_product",
-	joinColumns = @JoinColumn(name ="order_id"),
-	inverseJoinColumns = @JoinColumn(name="product_id"))
+	@JoinTable(name = "tb_order_product", joinColumns = @JoinColumn(name = "order_id"), inverseJoinColumns = @JoinColumn(name = "product_id"))
 	private Set<Product> products = new HashSet<>();
 
 	public Order() {
+
 	}
 
-	public Order(Long id, String address, Double latitude, Double longitude, Instant moment, OrderStatus status) {
+	public Order(Long id, String address, Double latitude, Double longtude, Instant moment, OrderStatus status) {
 		super();
 		this.id = id;
 		this.address = address;
 		this.latitude = latitude;
-		this.longitude = longitude;
+		this.longitude = longtude;
 		this.moment = moment;
 		this.status = status;
 	}
@@ -74,8 +75,8 @@ public class Order implements Serializable {
 		return longitude;
 	}
 
-	public void setLongitude(Double longitude) {
-		this.longitude = longitude;
+	public void setLongitude(Double longtude) {
+		this.longitude = longtude;
 	}
 
 	public Instant getMoment() {

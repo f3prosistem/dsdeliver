@@ -1,16 +1,2 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="org.springframework.web.cors.UrlBasedCorsConfigurationSource"/>
-    <fullyQualifiedTypeName name="org.springframework.core.env.Environment"/>
-    <fullyQualifiedTypeName name="org.springframework.web.cors.CorsConfigurationSource"/>
-    <fullyQualifiedTypeName name="java.time.Instant"/>
-    <fullyQualifiedTypeName name="java.util.Set"/>
-    <fullyQualifiedTypeName name="java.util.HashSet"/>
-    <fullyQualifiedTypeName name="java.io.Serializable"/>
-    <fullyQualifiedTypeName name="javax.persistence.Entity"/>
-    <fullyQualifiedTypeName name="javax.persistence.Id"/>
-    <fullyQualifiedTypeName name="javax.persistence.GeneratedValue"/>
-    <fullyQualifiedTypeName name="javax.persistence.ManyToMany"/>
-    <fullyQualifiedTypeName name="javax.persistence.JoinTable"/>
-    <fullyQualifiedTypeName name="javax.persistence.JoinColumn"/>
-</qualifiedTypeNameHistroy>
+<qualifiedTypeNameHistroy/>
