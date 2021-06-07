@@ -289,3 +289,15 @@ org.apache.maven.project.ProjectBuildingException: Some problems were encountere
 
 !ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-06-07 12:20:51.782
 !MESSAGE executing callback sts4.classpath.DuHBvBcC SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-06-07 18:52:09.727
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.DuHBvBcC
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-06-07 18:52:09.758
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.DuHBvBcC
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-06-07 18:52:09.758
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-06-07 18:52:09.758
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.DuHBvBcC => OK
