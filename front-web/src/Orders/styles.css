@@ -56,11 +56,11 @@
   }
   
   .orders-list-items {
-    width: 70%;
+    width: 73%;
     display: grid;
     grid-template-columns: repeat(auto-fill, 235px);
     grid-gap: 20px 15px;
-    justify-content: space-between;
+    justify-content: space-evenly;
   }
   
   .order-card-container {
