@@ -1,6 +1,8 @@
+import { OrderPayload } from './Orders/types';
 import axios from "axios";
 
-const API_URL = "https://f3pro-deliver.herokuapp.com"
+//const API_URL = "https://f3pro-deliver.herokuapp.com"
+const API_URL ="http://localhost:8080";
 const mapboxToken = process.env.REACT_APP_ACCESS_TOKEN_MAP_BOX;
 
 export function fechProducts(){
@@ -10,4 +12,8 @@ export function fechProducts(){
 export function fetchLocalMapBox(local:string){
     return axios(`https://api.mapbox.com/geocoding/v5/mapbox.places/${local}.json?access_token=${mapboxToken}`)
 
+}
+
+export function saveOrder(payload:OrderPayload){
+    return axios.post(`${API_URL}/orders`,payload)
 }
