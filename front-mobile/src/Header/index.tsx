@@ -1,6 +1,6 @@
 import { useNavigation } from "@react-navigation/native";
 import React from "react";
-import { StyleSheet, Text, View, Image, TouchableNativeFeedback } from "react-native";
+import { StyleSheet, Text, View, Image,  TouchableWithoutFeedback } from "react-native";
 
 function Header() {
 
@@ -15,12 +15,12 @@ const handleOnPress = ()=>{
   
   return (
     <>
-  <TouchableNativeFeedback onPress={handleOnPress}>
+  <TouchableWithoutFeedback onPress={handleOnPress}>
       <View style={styles.container}>
       <Image source={require("../assets/logo.png")} />
       <Text style={styles.text}>Ds Delivery</Text>
     </View>
-    </TouchableNativeFeedback>
+    </TouchableWithoutFeedback>
     </>
   );
 }
